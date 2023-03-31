@@ -23,7 +23,7 @@ public class Main {
     private static void pivot_sort(int[] arr, int lo, int hi) {
         if(lo >= hi) return;    // lo가 hi보다 같거나 높다면 정렬할 것이 없으므로 바로 리턴
 
-        int pivot = partition(arr, lo, hi);
+        int  pivot= partition(arr, lo, hi);
 
         pivot_sort(arr, lo, pivot); //이 부분에서 삽질함 why? => 재귀호출을 한 것이 아닌 단순 메소드 호출만 했다.
 
