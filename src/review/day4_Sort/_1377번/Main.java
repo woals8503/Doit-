@@ -1,4 +1,4 @@
-package review.day4._1377번;
+package review.day4_Sort._1377번;
 
 
 import java.io.BufferedReader;

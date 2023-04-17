@@ -1,4 +1,4 @@
-package review.day4._11399번;
+package review.day4_Sort._11399번;
 
 import java.io.BufferedReader;
 import java.io.IOException;

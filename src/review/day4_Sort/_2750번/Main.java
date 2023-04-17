@@ -1,4 +1,4 @@
-package review.day4._2750번;
+package review.day4_Sort._2750번;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -20,8 +20,6 @@ public class Main {
                 if(arr[j] > arr[j+1])
                     swap(arr, j, j+1);
             }
-
-
         }
 
         for(int i=0; i<N; i++) {
