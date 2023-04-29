@@ -45,7 +45,7 @@ public class Main {
                     next[sender[i]] = next[receiver[i]] - now[receiver[i]];
                     next[receiver[i]] = now[receiver[i]];
                 }
-                
+
                 if(!visit[next[0]][next[1]]) {
                     visit[next[0]][next[1]] = true;
                     q.offer(new AB(next[0], next[1]));
